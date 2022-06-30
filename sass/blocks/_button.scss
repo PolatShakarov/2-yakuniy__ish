@@ -1,0 +1,18 @@
+.hero__link {
+    @include button;
+
+}
+
+.hero__link:hover {
+    background-color: $white;
+    border: 1px solid $white;
+    color:$dark-green;
+}
+
+.hero__link:active{
+    background-color: transparent;
+    border: 1px solid #416367;
+    color: #416367;
+    
+}
+

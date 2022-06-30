@@ -1,0 +1,176 @@
+.hero {
+    
+    &__img{
+        width: 99px;
+        height: 200px;
+        margin: 85px 87px 0 -185px;
+    }
+    
+    &__light-coral{
+        color:$light-coral;
+    }
+    
+    &__container {
+        width: 1440px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $midnight-green;
+        background-image: url("../../images/disk-bottom.svg");
+        background-repeat: no-repeat;
+        background-position: calc(766px + 150px) 400px; 
+    }
+    
+    &__span{
+        display: inline-block;
+        width: 50px;
+        height: 4px;
+        background:#79C8C7;
+        margin-top: 10px;
+        margin-left: 785px;
+        margin-bottom: -88px;
+    }
+    
+    
+    &__wrapper {
+        display: flex;
+        margin-left: 165px;
+        margin-top: 0 250px;
+        
+        
+        
+        
+    }
+    
+    &__heading {
+        width: 620px;
+        height: 200px;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 100px;
+        /* or 100% */
+        color: $white;
+        position: relative;
+    }
+    
+    &__text {
+        width: 445px;
+        height: 112px;
+        font-family: 'Livvic';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        /* or 156% */
+        margin-top: 165px;
+        color: $white;
+        
+    }
+}
+
+@media only screen and (max-width:768px){
+    .hero{
+        
+        &__container{
+            background-image: url("../../images/disk-bottom.svg");
+            background-repeat: no-repeat;
+            background-position: calc(22px + 150px) 400px; 
+        }
+        
+        &__link{
+            font-family: monospace;
+            font-family: 'Livvic';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            margin-left: -873px;
+            margin-right: 40px;
+            padding: 10px 33px;
+            background-color: transparent;
+            border: 2px solid #FFFFFF;
+            border-radius: 24px;
+            color: #FFFFFF;
+        }
+        
+        &__heading{
+            width: 341px;
+            height: 112px;
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 56px;
+            margin-bottom: -120px;
+            margin-left: 12px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        &__text{
+            width: 457px;
+            height: 84px;
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: -50px;
+        }
+        
+        &__wrapper{
+            flex-direction: column;
+            margin-top: 10px;
+        }
+        
+        &__img{
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .hero {
+        
+        &__container {
+            background-image: url("../../images/disk-bottom.svg");
+            background-repeat: no-repeat;
+            background-position: calc(-137px + 150px) 400px;
+        }
+        
+        
+        &__heading {
+            width: 247px;
+            height: 80px;
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            margin-left: -108px;
+            color: #FFFFFF;
+        }
+        
+        &__light-coral {
+        }
+        
+        &__text {
+            width: 334px;
+            height: 84px;
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            margin-left: -161px;
+        }
+    }
+    
+}
+
